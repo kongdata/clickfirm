@@ -1,6 +1,8 @@
 
 document.addEventListener('dblclick', function (event) {
-    if (event.target.tagName === 'INPUT' && event.target.placeholder) {
+    if (event.target.tagName === 'INPUT' && event.target.placeholder && event.target.value === '') {
+        // The console is written in React 17 and the fields are React controlled components,
+        // so we need to update the value in React's internal state
         setReactInputValue(event.target, event.target.placeholder);
     }
 });
