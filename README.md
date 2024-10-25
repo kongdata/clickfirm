@@ -1,7 +1,6 @@
 
-
 <p align="center">
-  <img src="icons/48.png" alt="Logo">
+  <img src="appstore/demo.webp" alt="Logo" style="border: 1px solid lightgray">
 </p>
 
 # Clickfirm
